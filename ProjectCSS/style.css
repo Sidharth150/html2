@@ -1,0 +1,77 @@
+.contaner{
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 40px;
+    overflow: none;
+   
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nevcontaner{
+    background-color: blueviolet; 
+    min-height: 80px;
+    height: 30px;
+    width: 100%;
+    border-radius: 30px;
+    margin: 0px;
+
+
+}
+#list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+
+
+}
+#logo{
+    font-size: 2rem;
+    color: red;
+    
+}
+#ancer{
+    display: flex;
+     margin-right: 30px; 
+    gap: 10px;
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.footerbox{
+    background-color: beige;
+    min-height: 30px;
+    text-align: center;
+    font-size: 30p
+
+}
+    
+    
+    .conaintbox{
+    height: 100%;
+     display: flex;
+    /* border: 2px solid black; */
+    
+}
+img{
+    height: 200px;
+    width: 100px;
+    margin-top: 30px;
+    padding-right: 100px;
+    
+}
+.rightbox{
+
+}
+
+    
+.leftbox{
+
+}

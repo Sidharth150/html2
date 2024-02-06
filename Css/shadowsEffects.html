@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:red;
+            --coustom-width:300px
+        }
+        .contener{
+            height: 600px;
+            width: 500px;
+            margin: 10px;
+            padding: 10px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            height: 200px;
+            width: 100px;
+        }
+        .box{
+            /* --primary-color:aqua;
+            --coustom-width:300px */
+            height: 400px;
+            width: var(--coustom-width);
+            background-color: aqua;
+            border: 2px solid var(--primary-color);
+            /* box-shadow: 10px 20px red; */
+            /* box-shadow: 10px 20px 5px black; */
+            /* box-shadow: inset 10px 20px red , 20px 30px gold; */
+
+        }
+        #heading{
+            text-shadow: 3px 3px 2px rgb(214, 15, 31);
+        }
+        
+    </style>
+</head>
+<body>
+    
+<div class="contener">
+    <div class="box">
+        <img src="ssss1.webp" >
+        <h1 id="heading"> hello jiiii </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Ea fuga architecto quaerat adipisci totam illo, in perferendis aut excepturi, 
+            consequatur minus nemo sapiente, culpa laboriosam!
+        </p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transforms</title>
+    <style>
+        .contener{
+            height: 600px;
+            width: 1300px;
+             display: flex; 
+            background-color: aqua;
+             justify-content: center;
+            align-items: center; 
+            border: 5px solid black;
+
+
+        }
+        .box{
+            height: 100px;
+            width:100px ;
+            background-color: blueviolet;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+            margin: auto;  
+            border: 2px solid bisque;
+            transition: linear;
+
+
+        }
+        p{
+            font-size: 20px;
+        }
+        .box:hover{
+             transform: rotate(45deg); 
+            transform: skew(45deg)
+            /* transform:translate(50px,-60px) */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="box">
+            <p> hello jiii</p>
+        </div>
+
+    </div>
+</body>
+</html>

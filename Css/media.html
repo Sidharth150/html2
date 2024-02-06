@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contener{
+            height: 5000px;
+            background-color:beige;
+            border: 1px solid yellow;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            
+        }
+        #img1{
+            height: 10px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+        }
+        #box1{
+            background-color: blueviolet;
+           
+        
+
+        }
+        #box2{
+            background-color: brown;
+           
+        }
+        #box3{
+            background-color: black;
+           
+    
+
+        }
+        #box4{
+            background-color: gold;
+           
+        }
+        #box5{
+            background-color: aliceblue;
+            
+            
+        }
+        #box6{
+            background-color: rgb(20, 16, 42);
+        }
+        @media(min-width:600px){
+            .contener{
+                flex-direction: row;
+
+            }
+                }
+                @media(max-width:600px){
+                    .contener{
+                        flex-direction: column;
+                    }
+                }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="box" id="box1"> box1</div>
+        <div class="box" id="box2"> box2 </div>
+        <div class="box" id="box3"> box3</div>
+        <div class="box" id="box4"> box4</div> 
+        <div class="box" id="box5">box5</div>
+        <div class="box"id="box6">box6</div>
+        <div class="box" id="box7"> box7</div>
+
+        </div>
+</body>
+</html>
